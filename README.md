@@ -196,7 +196,10 @@ Configuration: Swap space can be allocated during installation or manually confi
 
              File Permissions: Ensure correct permissions on .ssh and authorized_keys.
 
-
+             ```
+   	       chmod 700 ~/.ssh
+   	       chmod 600 ~/.ssh/authorized_keys
+   	       ```
                    
 
 
@@ -205,7 +208,7 @@ Configuration: Swap space can be allocated during installation or manually confi
              Key Type: Ensure the key type is supported by the server.
              SSH Agent: Ensure the SSH agent is running and the key is added using ssh-add.
 
-15.	Describe the Linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt!
+16.	Describe the Linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt!
 
               BIOS/UEFI: Initialize hardware and load bootloader.
               Bootloader (GRUB/LILO): Select and load the kernel.
