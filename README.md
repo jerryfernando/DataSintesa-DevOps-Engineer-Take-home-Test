@@ -1,5 +1,6 @@
 # DataSintesa-DevOps-Engineer-Take-home-Test
-General Knowledge Check
+
+#General Knowledge Check
 1.	What is your favorite Linux distro and why? 
 Ubuntu is a favorite because it’s user-friendly, has strong community support, offers long-term support (LTS), has a vast software repository, is versatile for various uses, includes robust security features, is widely compatible with hardware, and follows a predictable release cycle.
 
@@ -222,5 +223,58 @@ Configuration: Swap space can be allocated during installation or manually confi
               Runlevel/Target: System reaches the specified runlevel/target.
               Login Prompt: Display login prompt on console or GUI.
               User Login: Shell or desktop environment started after login.
+
+
+#Take-Home Tests
+Overview
+Your goal is to set up a simple hello-world Node.js app called oss on a development VM / container.
+
+The code for the simple Express web server as follows :
+
+// Simple Express web server
+// @see http://howtonode.org/getting-started-with-express
+
+// Load the express module
+var express = require('express'); var app = express()
+
+
+// Respond to requests for / with 'Hello World' app.get('/', function(req, res){
+res.send('Hello world!');
+});
+
+// Listen on port 80
+app.listen(80, () => console.log('Express server started successfully.'));
+
+The package.json file as follows :
+
+{
+"name": "examplenodeapp",
+"description": "Example Express Node.js app.",
+"author": "dtndevopscandidate <devopscandidate@datasintesa.id>", "dependencies": {
+"express": "4.x"
+},
+"engine": "node >= 0.10.6"
+} 
+Goals
+The server should be running :
+
+1.	Centos ≥ 7
+2.	Nginx ≥ 1.15
+3.	Postgresql ≥ 11 4. Node.js >= 0.10.6
+
+The server must have 3 easily executable bash scripts in /opt/oss/bin :
+
+1.	bin/stop → stop the Express server, nginx, and postgresql.
+2.	bin/start → start the Express server, nginx, and postgresql.
+3.	bin/backup → dump the postgresql database to a .sqlfile in
+/opt/oss/data/backups
+
+Outputs
+A dockerfile or a vagrantfile which fulfills all the goals listed above, along with the 3 executable bash scripts.
+
+Submit the answer to the recruiter max 2 days after day of assignment.
+
+Answer
+
 
 
