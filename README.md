@@ -36,7 +36,8 @@ Configuration: Swap space can be allocated during installation or manually confi
 
 6.	You have to find all files larger than 20 MB in your Linux OS. How you do it?
 
-               
+   ![1](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/dbc37222-da69-4a9f-8ad8-9bf429247fad)
+
              (/) specifies the starting directory for the search (root directory).
              (-type f) specifies that you are looking for files.
              (-size +20M) specifies that the file size should be greater than 20 MB.
@@ -59,11 +60,13 @@ Configuration: Swap space can be allocated during installation or manually confi
 
 
 
+![6](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/f0a6d9b0-cb41-4788-a10b-5d56f16a57d7)
 
                
                To adjust OOM scores
 
 
+![7](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/1d636014-a11f-4fd5-b8e6-acd4d7ee2b68)
 
 
 
@@ -71,7 +74,7 @@ Configuration: Swap space can be allocated during installation or manually confi
 
              This command logs the current date and the number of unique users running 
              processes to a file called Activity.log.
-
+```
    date: Prints the current date and time.
    ps -ef: Lists all running processes in full-format listing.
    awk '{print $1}': Extracts the first column from the ps output, which is the user owning the 
@@ -81,7 +84,7 @@ Configuration: Swap space can be allocated during installation or manually confi
    wc -l: Counts the number of lines (unique users) from the sorted list.
    >> Activity.log: Appends the output to the file Activity.log.
 
-
+```
 
 
 
@@ -104,11 +107,14 @@ Configuration: Swap space can be allocated during installation or manually confi
 
               To find which process is listening on a specific port, you can use the netstat, ss, or lsof 
               commands.
-              
-               
 
-               
-              
+
+![2](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/236e2200-0a0d-48e3-8215-13d6a444971b)
+
+![3](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/51f1ebff-b5c8-41c4-8350-fd4644804568)
+
+![4](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/4383e891-e982-44a6-995c-3c5782d5e719)
+
                
 
 
@@ -196,11 +202,9 @@ Configuration: Swap space can be allocated during installation or manually confi
 
              File Permissions: Ensure correct permissions on .ssh and authorized_keys.
 
-             ```
-   	       chmod 700 ~/.ssh
-   	       chmod 600 ~/.ssh/authorized_keys
-   	       ```
-                   
+           
+![7](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/44dc1e09-910a-443d-9812-c4ee88dda74b)
+
 
 
              SSH Key Format: Ensure the key is correctly formatted.
