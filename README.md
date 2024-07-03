@@ -1,6 +1,6 @@
 # DataSintesa-DevOps-Engineer-Take-home-Test
 
-#General Knowledge Check
+# General Knowledge Check
 1.	What is your favorite Linux distro and why? 
 Ubuntu is a favorite because it’s user-friendly, has strong community support, offers long-term support (LTS), has a vast software repository, is versatile for various uses, includes robust security features, is widely compatible with hardware, and follows a predictable release cycle.
 
@@ -225,12 +225,13 @@ Configuration: Swap space can be allocated during installation or manually confi
               User Login: Shell or desktop environment started after login.
 
 
-#Take-Home Tests
-Overview
+# Take-Home Tests
+
+## Overview
 Your goal is to set up a simple hello-world Node.js app called oss on a development VM / container.
 
 The code for the simple Express web server as follows :
-
+```
 // Simple Express web server
 // @see http://howtonode.org/getting-started-with-express
 
@@ -244,9 +245,10 @@ res.send('Hello world!');
 
 // Listen on port 80
 app.listen(80, () => console.log('Express server started successfully.'));
+```
 
 The package.json file as follows :
-
+````
 {
 "name": "examplenodeapp",
 "description": "Example Express Node.js app.",
@@ -254,8 +256,10 @@ The package.json file as follows :
 "express": "4.x"
 },
 "engine": "node >= 0.10.6"
-} 
-Goals
+}
+```
+
+## Goals
 The server should be running :
 
 1.	Centos ≥ 7
@@ -269,12 +273,12 @@ The server must have 3 easily executable bash scripts in /opt/oss/bin :
 3.	bin/backup → dump the postgresql database to a .sqlfile in
 /opt/oss/data/backups
 
-Outputs
+## Outputs
 A dockerfile or a vagrantfile which fulfills all the goals listed above, along with the 3 executable bash scripts.
 
 Submit the answer to the recruiter max 2 days after day of assignment.
 
-Answer
+## Answer
 
 
 
