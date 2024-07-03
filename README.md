@@ -248,7 +248,7 @@ app.listen(80, () => console.log('Express server started successfully.'));
 ```
 
 The package.json file as follows :
-````
+```
 {
 "name": "examplenodeapp",
 "description": "Example Express Node.js app.",
