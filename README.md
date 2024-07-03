@@ -288,3 +288,6 @@ Submit the answer to the recruiter max 2 days after day of assignment.
 
 ![11](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/13642040-6e3e-4743-86af-e7319b4b07d7)
 
+![12](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/c3373672-2cd1-4838-8eae-af2e36c77601)
+
+![13](https://github.com/jerryfernando/DataSintesa-DevOps-Engineer-Take-home-Test/assets/23428256/5020ae85-e47f-45cf-bae1-f93364156956)
