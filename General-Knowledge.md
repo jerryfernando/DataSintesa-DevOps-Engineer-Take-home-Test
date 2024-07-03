@@ -2,6 +2,7 @@
 
 # General Knowledge Check
 1.	What is your favorite Linux distro and why? 
+
 Ubuntu is a favorite because it’s user-friendly, has strong community support, offers long-term support (LTS), has a vast software repository, is versatile for various uses, includes robust security features, is widely compatible with hardware, and follows a predictable release cycle.
 
 2.	What do you know about Container and Virtual Machine?
